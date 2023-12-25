@@ -8,8 +8,7 @@ int IsCQ_Full();
 int IsCQ_Empty();
 voidCQ_Insert(int );
 void CQ_Delet();
-DS LAB (BCSL305)
-Prepared by Prof. Shruthi S , Dept Of AI & DS
+
 void CQ_Display();
 void main()
 {
@@ -41,8 +40,7 @@ CQ_Display();
 break;
 case 4: exit(0);
 }
-DS LAB (BCSL305)
-Prepared by Prof. Shruthi S , Dept Of AI & DS
+
 }
 }
 void CQ_Insert(int item)
@@ -74,8 +72,6 @@ printf("%d\t",CQ[i]);
 printf("%d\n",CQ[i]);
 }
 }
-DS LAB (BCSL305)
-Prepared by Prof. Shruthi S , Dept Of AI & DS
 int IsCQ_Full()
 {
 if(front ==(rear+1)%SIZE)
